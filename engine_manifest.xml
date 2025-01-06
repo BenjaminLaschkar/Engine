@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-<remote name="github" fetch="https://github.com/BenjaminLaschkar" />
-<default revision="main" remote="github" />
-<project name="Engine.git" remote="github" path="Engine" />
-<project path="Test_A_independant" name="Test_A_independant.git" remote="github" revision="main" />
-<project path="Test_B_independant" name="Test_B_independant.git" remote="github" revision="main" />
-</manifest>

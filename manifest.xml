@@ -1,0 +1,10 @@
+<manifest>
+  <remote name="origin" fetch="https://example.com/repo/" />
+  <default revision="main" remote="origin" sync-j="4" />
+  <!-- Déclaration des projets -->
+  <project path="Engine" name="Engine" groups="core"/>
+  <project path="EBM" name="EBM" groups="ebm"/>
+  <project path="EE" name="EE" groups="ee"/>
+  <!-- Dépendance explicite sur Engine -->
+  <project path="Engine" name="Engine" groups="core,ebm,ee"/>
+</manifest>

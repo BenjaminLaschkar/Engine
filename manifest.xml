@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="https://example.com/repo/" />
+<remote name="github" fetch="https://github.com/BenjaminLaschkar" />
   <default revision="main" remote="origin" sync-j="4" />
   <!-- Déclaration des projets -->
   <project path="Engine" name="Engine" groups="core"/>

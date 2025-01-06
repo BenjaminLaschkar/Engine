@@ -3,7 +3,6 @@
 <remote name="github" fetch="https://github.com/BenjaminLaschkar" />
   <default revision="main" remote="github" sync-j="4" />
   <!-- Déclaration des projets -->
-  <project path="Engine" name="Engine" groups="core"/>
   <project path="EBM" name="EBM" groups="ebm"/>
   <project path="EE" name="EE" groups="ee"/>
   <!-- Dépendance explicite sur Engine -->
